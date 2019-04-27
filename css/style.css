@@ -1,0 +1,85 @@
+body {
+  background-color: rgba(152, 195, 243, 0.315);
+}
+
+header .icon img {
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 2s all ease;
+  transition: 2s all ease;
+  cursor: pointer;
+}
+header .logo-content h2 {
+  cursor: pointer;
+  padding: 0px 20px;
+  position: relative;
+  overflow: hidden;
+  font-size: 80px;
+  font-family: "Nunito", sans-serif;
+  color: #5f66d4;
+  text-shadow: 0px 0px 3px #5176dd;
+  display: inline-block;
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+}
+header .logo-content h2:hover {
+  color: #3942cc;
+  text-shadow: 0px 0px 10px #6482d4;
+}
+header .logo-content h2:hover::after {
+  left: 0%;
+}
+header .logo-content h2:hover::before {
+  right: 0%;
+}
+header .logo-content h2:hover .span-1 {
+  top: 0%;
+}
+header .logo-content h2:hover .span-2 {
+  bottom: 0%;
+}
+header .logo-content h2::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #3942cc;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+}
+header .logo-content h2::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #3942cc;
+  position: absolute;
+  bottom: 0px;
+  right: 100%;
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+}
+header .logo-content h2 .span-1 {
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+  top: 100%;
+  left: 0%;
+  background-color: #3942cc;
+}
+header .logo-content h2 .span-2 {
+  height: 100%;
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+  width: 4px;
+  position: absolute;
+  bottom: 100%;
+  right: 0%;
+  background-color: #3942cc;
+}
+
+/*# sourceMappingURL=style.css.map */
