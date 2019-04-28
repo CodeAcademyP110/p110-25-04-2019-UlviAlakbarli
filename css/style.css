@@ -82,4 +82,10 @@ header .logo-content h2 .span-2 {
   background-color: #3942cc;
 }
 
-/*# sourceMappingURL=style.css.map */
+.dismiss:hover {
+  background-color: red;
+  color: black;
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+  cursor: pointer;
+}

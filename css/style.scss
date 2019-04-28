@@ -92,3 +92,11 @@ header{
 
     }
 }
+.dismiss{
+    &:hover{
+        background-color: red;
+        color: black;
+        transition: 0.4s all ease;
+        cursor: pointer;
+    }
+}
